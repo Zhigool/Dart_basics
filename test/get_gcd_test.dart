@@ -1,4 +1,4 @@
-import 'package:dart_basics/hw2_6/get_gcd_function.dart';
+import 'package:dart_basics/hw2_6/get_gcd.dart';
 import 'package:dart_basics/hw2_6/int_extensions.dart';
 import 'package:test/test.dart';
 
