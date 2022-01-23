@@ -28,4 +28,10 @@ void main() {
       expect(15.getSimpleFactors(), [3, 5]);
     });
   });
+
+  group('intToBinary', () {
+    test('int to binary 1002', () {
+      expect(1002.toBinary(), '1111101010');
+    });
+  });
 }

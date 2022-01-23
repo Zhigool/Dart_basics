@@ -24,4 +24,15 @@ extension IntExtensions on int {
     }
     return multipliers;
   }
+
+  String toBinary() {
+    int bin = 0, i = 1;
+    var res = this;
+    while (res > 0) {
+      bin = bin + (res % 2) * i;
+      res = (res / 2).floor();
+      i = i * 10;
+    }
+    return bin.toString();
+  }
 }
